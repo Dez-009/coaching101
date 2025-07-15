@@ -1,4 +1,11 @@
-fastapi
-uvicorn
-pydantic
-pytest
+fastapi==0.104.1
+uvicorn==0.24.0
+asyncpg==0.29.0
+motor==3.1.1
+pymongo<4.6.0
+aiomysql==0.2.0
+elasticsearch[async]==8.11.0
+redis==5.0.1
+spacy==3.7.2
+python-dotenv==1.0.0
+cryptography==42.0.4
